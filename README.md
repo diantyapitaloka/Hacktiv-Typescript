@@ -1,60 +1,8 @@
 ## 🍪🧃🥗 Hacktiv Typescript 🥗🧃🍪
 
-type Resp<T, U = {count: number}> = {
-    status: number,
-    data: T,
-    meta: U
-}
+![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/d3e01009-ce71-4abe-b38f-7a0169a4581b)
 
-interface Example {
-    name: string
-}
+![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/d037947f-3c22-4933-8dd2-ccb74f2220d6)
 
-interface Resp2<T, U = {count: number}> extends Example {
-    status: number,
-    data: T,
-    meta: U
-}
+![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/3b7a4c29-0989-4bd0-a824-62fa295fac1a)
 
-type User = {
-    status: number,
-    data: {
-        name: string
-    }
-}
-
-let user: User = {
-    status: 200,
-    data: {
-        name: 'Diantya Pitaloka'
-    }
-}
-const userResp: Resp<{ name: string}> = {
-    status: 200,
-    data: {
-        name: 'Diantya Pitaloka'
-    }
-}
-
-const postResp: Resp<{title: string, content:string}> = {
-    status: 200,
-    data: {
-        title: 'Hello World',
-        content: 'Lorem Ipsum Dolor'
-    },
-    meta: {
-        count: 1
-    }
-}
-
-class Rspns<T> {
-    constructor (public data: T) {}
-
-    public send<U>(ob): U): Resp<U> {
-        return(
-            status: 200,
-            data: ob
-        )
-
-    }
-}
