@@ -13,3 +13,5 @@
 
 ![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/3b7a4c29-0989-4bd0-a824-62fa295fac1a)
 
+## 🍪🧃🥗 Copyright 🥗🧃🍪
+By Diantya Pitaloka
