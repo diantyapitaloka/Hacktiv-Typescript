@@ -1,6 +1,7 @@
 ## 🍪🧃🥗 Hacktiv Typescript 🥗🧃🍪
 
 - TypeScript is a syntactic superset of JavaScript which adds static typing.
+- Development-Time Error Catching: Unlike JavaScript, which throws errors while the app is running (runtime), TypeScript identifies bugs while you’re writing the code (compile-time). This prevents many "undefined is not a function" headaches.
 - This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.
 - JavaScript is a loosely typed language. It can be difficult to understand what types of data are being passed around in JavaScript.
 - In JavaScript, functions parameters and variables don't have any information! So developers need to look at documentation, or guess based on the implementation.
