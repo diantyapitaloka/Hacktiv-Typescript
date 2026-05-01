@@ -16,6 +16,7 @@
 - Enhanced IDE Support: Because the language understands the data structures, editors like VS Code can provide intelligent autocomplete (IntelliSense), easier navigation, and more reliable automated refactoring.
 - Interfaces and Custom Types: TypeScript allows you to define complex "blueprints" for objects using interface or type. This ensures that every object in your app follows a strict, predictable shape.
 - Future-Proof Syntax: TypeScript allows you to use the latest ECMAScript features (like optional chaining or nullish coalescing) even if you are targeting older browsers, as it transpiles the code down to a compatible version of JavaScript.
+- Structural Typing System: TypeScript uses "duck typing" to compare objects based on their actual shape and properties rather than their explicit class names. This allows for greater flexibility while maintaining strict safety standards across different parts of your application.
 
 ![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/d3e01009-ce71-4abe-b38f-7a0169a4581b)
 
