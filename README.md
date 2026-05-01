@@ -15,6 +15,7 @@
 - Explicit Documentation: The types themselves act as a form of "living documentation." Instead of guessing what an API returns, a developer can simply hover over a variable to see its exact structure.
 - Enhanced IDE Support: Because the language understands the data structures, editors like VS Code can provide intelligent autocomplete (IntelliSense), easier navigation, and more reliable automated refactoring.
 - Interfaces and Custom Types: TypeScript allows you to define complex "blueprints" for objects using interface or type. This ensures that every object in your app follows a strict, predictable shape.
+- Future-Proof Syntax: TypeScript allows you to use the latest ECMAScript features (like optional chaining or nullish coalescing) even if you are targeting older browsers, as it transpiles the code down to a compatible version of JavaScript.
 
 ![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/d3e01009-ce71-4abe-b38f-7a0169a4581b)
 
