@@ -13,6 +13,7 @@
 - For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
 - Development-Time Error Catching: Unlike JavaScript, which throws errors while the app is running (runtime), TypeScript identifies bugs while you’re writing the code (compile-time). This prevents many "undefined is not a function" headaches.
 - Explicit Documentation: The types themselves act as a form of "living documentation." Instead of guessing what an API returns, a developer can simply hover over a variable to see its exact structure.
+- Enhanced IDE Support: Because the language understands the data structures, editors like VS Code can provide intelligent autocomplete (IntelliSense), easier navigation, and more reliable automated refactoring.
 
 ![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/d3e01009-ce71-4abe-b38f-7a0169a4581b)
 
