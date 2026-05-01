@@ -17,6 +17,7 @@
 - Interfaces and Custom Types: TypeScript allows you to define complex "blueprints" for objects using interface or type. This ensures that every object in your app follows a strict, predictable shape.
 - Future-Proof Syntax: TypeScript allows you to use the latest ECMAScript features (like optional chaining or nullish coalescing) even if you are targeting older browsers, as it transpiles the code down to a compatible version of JavaScript.
 - Structural Typing System: TypeScript uses "duck typing" to compare objects based on their actual shape and properties rather than their explicit class names. This allows for greater flexibility while maintaining strict safety standards across different parts of your application.
+- Seamless Integration: You can adopt TypeScript gradually by migrating individual files one at a time within an existing JavaScript project. This "opt-in" nature makes it easy for teams to upgrade their codebase without needing a complete rewrite.
 
 ![image](https://github.com/diantyapitaloka/Hacktiv-Typescript/assets/147487436/d3e01009-ce71-4abe-b38f-7a0169a4581b)
 
