@@ -12,7 +12,7 @@
 - TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.
 - For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
 - Development-Time Error Catching: Unlike JavaScript, which throws errors while the app is running (runtime), TypeScript identifies bugs while you’re writing the code (compile-time). This prevents many "undefined is not a function" headaches.
-- Explicit Documentation: The types themselves act as a form of "living documentation." Instead of guessing what an API returns, a developer can simply hover over a variable to see its exact structure.
+- Explicit Documentation: The types themselves act as a form of "living documentation." Instead of guessing what an API returns, a developer can simply hover over a variable to see its same exact structure.
 - Enhanced IDE Support: Because the language understands the data structures, editors like VS Code can provide intelligent autocomplete (IntelliSense), easier navigation, and more reliable automated refactoring.
 - Interfaces and Custom Types: TypeScript allows you to define complex "blueprints" for objects using interface or type. This ensures that every object in your app follows a strict, predictable shape.
 - Future-Proof Syntax: TypeScript allows you to use the latest ECMAScript features (like optional chaining or nullish coalescing) even if you are targeting older browsers, as it transpiles the code down to a compatible version of JavaScript.
