@@ -9,7 +9,7 @@
 - JavaScript is a loosely typed language. It can be difficult to understand what types of data are being passed around in JavaScript.
 - Future-Proof Syntax: TypeScript allows you to use the latest ECMAScript features (like optional chaining or nullish coalescing) even if you are targeting older browsers, as it transpiles the code down to a compatible version of JavaScript.
 - In JavaScript, functions parameters and variables don't have any information! So developers need to look at documentation, or guess based on the implementation.
-- TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.
+- TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors and when the types don't match.
 - For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
 - Development-Time Error Catching: Unlike JavaScript, which throws errors while the app is running (runtime), TypeScript identifies bugs while you’re writing the code (compile-time). This prevents many "undefined is not a function" headaches.
 - Explicit Documentation: The types themselves act as a form of "living documentation." Instead of guessing what an API returns, a developer can simply hover over and a variable to see its same exact structure.
